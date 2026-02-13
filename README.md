@@ -1,87 +1,63 @@
-# Hello, World! 👋
+# Keshav Bajpai - MacOS Interactive Portfolio OS
 
-Welcome to this **sample Markdown file**. This document demonstrates various Markdown features.
-
----
-
-## Table of Contents
-
-1. [Text Formatting](#text-formatting)
-2. [Lists](#lists)
-3. [Code](#code)
-4. [Table](#table)
-5. [Links & Images](#links--images)
+Welcome to my professional portfolio, reimagined as a fully functional, 3D-enhanced operating system inspired by MacOS. Built with cutting-edge web technologies, this project showcases my journey as an **AI Engineer** and **Full Stack Developer**.
 
 ---
 
-## Text Formatting
+## 🖥️ The OS Experience
 
-- **Bold text** using double asterisks
-- *Italic text* using single asterisks
-- ~~Strikethrough~~ using double tildes
-- `Inline code` using backticks
-- > This is a blockquote
-
----
-
-## Lists
-
-### Unordered List
-- 🍎 Apples
-- 🍌 Bananas
-- 🍇 Grapes
-
-### Ordered List
-1. First item
-2. Second item
-3. Third item
-
-### Task List
-- [x] Learn Markdown basics
-- [x] Create a sample file
-- [ ] Master advanced formatting
+This isn't just a website; it's a browser-based environment featuring:
+- **Boot & Login Sequence**: A realistic system startup experience.
+- **Window Management**: A custom-built state management system using **Zustand** that allows dragging, minimizing, maximizing, and stacking multiple windows.
+- **3D Skill Universe**: An interactive Three.js cloud of expertise that responds to user navigation.
+- **Functional Dock & Finder**: Navigate through professional assets just like a real desktop.
+- **Terminal Integration**: A command-line interface for the "power users" to explore my bio and projects.
 
 ---
 
-## Code
+## 🛠️ Tech Stack
 
-### Python
-```python
-def greet(name: str) -> str:
-    """Return a greeting message."""
-    return f"Hello, {name}! Welcome to Markdown."
+### Frontend Architecture
+- **React 19**: Modern UI component architecture.
+- **Zustand**: Lightweight, high-performance state management for windowing logic.
+- **Framer Motion**: Smooth, spring-based animations and transitions.
+- **Tailwind CSS**: Utility-first styling for the sleek MacOS aesthetic.
 
-print(greet("Keshav"))
-```
+### 3D & Graphics
+- **Three.js & React Three Fiber**: Powering the immersive 3D Skill Cloud.
+- **React Three Drei**: Specialized helpers for 3D interactions.
 
-### JavaScript
-```javascript
-const greet = (name) => `Hello, ${name}!`;
-console.log(greet("World"));
-```
+### Intelligence
+- **Google Gemini API**: Integration of Generative AI for professional context handling.
 
 ---
 
-## Table
+## 📂 Project Structure
 
-| Feature       | Supported | Notes              |
-|---------------|:---------:|--------------------|
-| Headers       | ✅        | Up to 6 levels     |
-| Bold/Italic   | ✅        | Standard syntax    |
-| Code Blocks   | ✅        | With syntax highlight |
-| Tables        | ✅        | GitHub-flavored    |
-| Math (LaTeX)  | ⚠️        | Platform-dependent |
+- `components/`: Modular UI components (MenuBar, Dock, Window system).
+- `components/apps/`: Individual applications like `ExperienceApp`, `ProjectsApp`, and `TerminalApp`.
+- `store/`: Zustand hooks for global system state.
+- `constants.tsx`: Centralized source of truth for portfolio data.
+- `types.ts`: TypeScript definitions for system-wide type safety.
 
 ---
 
-## Links & Images
+## 🌟 Key Applications
 
-- [Markdown Guide](https://www.markdownguide.org/)
-- [GitHub Docs](https://docs.github.com/)
+- **📁 Finder**: Browse through my files and project categories.
+- **🧠 Skill Universe**: A 3D orbital view of my technical stack.
+- **💼 Career Journey**: A vertical timeline of my professional milestones.
+- **📝 Resume**: A printable-style high-fidelity resume viewer.
+- **💻 Terminal**: Explore my "file system" via standard CLI commands.
 
 ---
 
-> [!TIP]
-> Markdown is lightweight, easy to learn, and widely supported across platforms!
+## 🤝 Connect With Me
 
-*Generated for testing purposes.* 🚀
+- **Email**: [ikeshav62@gmail.com](mailto:ikeshav62@gmail.com)
+- **LinkedIn**: [Keshav Bajpai](https://linkedin.com/in/keshav-bajpai)
+- **GitHub**: [@keshav20004](https://github.com/keshav20004)
+
+---
+
+*Designed and engineered with ❤️ by Keshav Bajpai.*
